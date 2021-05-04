@@ -1,0 +1,371 @@
+cd .cache
+ls
+cd zsh
+..
+sudo / -iname history
+sudo find / -iname history
+cd .cache/
+mkdir zsh
+vim history
+..
+./dwm_bar.sh
+cd dwm-bar
+./dwm_bar.sh
+vim .zshrc 
+vim .zshrc
+startx
+zathura 12.El\ retrato\ de\ Dorian\ Gray.pdf
+cd dwm-bar
+chmod +x dwm_bar.sh
+./dwm_bar.sh
+vim
+vim
+..
+vim .xinitrc
+reboot
+cd Downloads
+cd Intro\ a\ la\ ingenieria
+ls
+ls -l
+cd
+sudo find / -iname Intro a la ingenieria4
+sudo find / -iname Intro
+ls
+vim .xinitrc
+startx
+cd dwm-bar
+ls
+chmod +x dwm_bar.sh
+./dwm_bar.sh
+vim
+cd dwm-bar
+vim
+vim
+reboot
+paru -Syyu
+exit
+vim .xinitrc
+cd dwm-bar
+ls
+vim 
+..
+vim .vimrc
+paru -Syyu
+startx
+cd dwm-bar
+vim
+vim
+SH
+cd dwm-bar
+./dwm_bar.sh
+startx
+cd dwm-bar
+vim
+vim
+SH
+startx
+cd dwm-bar
+vim
+SH
+startx
+cd dwm-bar
+vim
+vim
+reboot
+startx
+vim
+reboot
+startx
+vim
+SH
+startx
+vim
+reboot
+startx
+vim
+reboot
+vim
+vim 
+cd dwm-6.2
+sudo cp config.def.h config.h
+sudo make clean install
+vim 
+sudo cp config.def.h config.h
+sudo make clean install
+..
+vim
+vim
+sudo find / -iname .dwm_bar.sh.swp"
+sudo find / -iname .dwm_bar.sh.swp
+cd dwm-bar
+ls-l
+ls -l
+ls -la
+rm .dwm_bar.sh.swp
+cl
+vim
+vim
+startx
+reboot
+startx
+vim
+vim
+SH
+startx
+vim
+SH
+vim
+reboot
+startx
+startx
+vim
+reboot
+startx
+vim
+vim
+reboot
+vim
+vim
+vim
+vim funcion.py
+rm funcion.py
+clear
+vim
+vim
+vim
+vim
+vim .vimrc
+vim
+vim adivinar.py
+cd Downloads
+ls
+cd PC\ intro\ a\ la\ cmputaci$'\303'$'\263'n
+ls
+..
+..
+cd intro\ a\ la\ computaci$'\303'$'\263'n
+ls
+zathura Trabajo quimica\ 1
+conda activate base
+anaconda navigator
+conda navigator
+anaconda-navigator
+anaconda-navigator
+conda init
+conda .adivinar.py.swp
+zathura UNI-IIS-Clase\ 04-Herramientas\ basicas-DIAGRAMA-Causa\ Efecto-Pareto-Flujograma.pdf
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+vim adivinar.py
+python adivinar.py
+python adivinar.py
+python adivinar.py
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+python adivinar.py
+python adivinar.py
+cd Downloads
+cd Intro\ a\ la\ ingenieria
+ls
+mpv Intro\ a\ la\ ingenier$'\303'$'\255'a4.mp4
+..
+..
+vim adivinar.py
+python adivinar.py
+vim adivinar.py
+zathura Clase\ 03-IIS.pdf
+cd intro\ a\ la\ computaci$'\303'$'\263'n
+ls
+git clone
+git clone https://github.com/UNI-FIIS-BIC01/bic01w-tercer-laboratorio-itCsn.git
+ls
+cd bic01w-tercer-laboratorio-itCsn
+ls
+vim
+zathura download\ \(4\).pdf
+cd Downloads
+cd Intro\ a\ la\ ingenieria
+mpv Intro\ a\ la\ ingenier$'\303'$'\255'a4.mp4
+startx
+SH
+ranger
+python adivinar.py
+vim
+vim
+vim ahorcado.py
+python ahorcado.py
+python ahorcado.py
+vim ahorcado.py
+python ahorcado.py
+vim ahorcado.py
+python ahorcado.py
+vim ahorcado.py
+python ahorcado.py
+python ahorcado.py
+vim ahorcado.py
+python ahorcado.py
+vim ahorcado.py
+python ahorcado.py
+vim ahorcado.py
+python ahorcado.py
+vim ahorcado.py
+python ahorcado.py
+vim ahorcado.py
+python ahorcado.py
+vim ahorcado.py
+vim ahorcado.py
+ranger
+ranger
+ranger
+locale -a
+sudo find / -iname .utf-8
+locale.setlocale(locale.LC_ALL,'en_US.UTF-8')\
+
+bash
+locale.setlocale(locale.LC_ALL,'en_US.UTF-8')\
+
+locale.setlocale(locale.LC_ALL,'en_US.UTF-8')
+locale.setlocale(locale.LC_ALL,'en_US.UTF-8')
+sudo find / -iname locale.conf
+vim /etc/locale.conf
+ranger
+vim .zshenv
+vim
+cd intro\ a\ la\ computaci$'\303'$'\263'n
+python bic01w-tercer-laboratorio-itCsn/ahorcado.py
+cd bic01w-tercer-laboratorio-itCsn
+python ahorcado.py
+vim 
+dwm
+cd dwm-6.2
+vim config.def.h
+startx
+cd intro\ a\ la\ computación
+cd bic01w-tercer-laboratorio-itCsn
+vim
+neofetch
+vim out.py
+python out.py
+python out.py
+vim out.py
+python out.py
+vim out.py
+python out.py
+vim out.py
+rm out.py
+python adivinar.py
+vim adivinar.py
+vim ahor.py
+SH
+ranger
+ranger
+q
+vim ahorcado.py
+vim adivinar.py 
+python adivinar.py 
+vim adivinar.py 
+ranger
+sudo pacman -Syy libxft-bgra
+ pacman -Ss libxft
+ pacman -Ss libxft-
+ pacman -Ss libxft-
+ pacman -Ss libxft
+exit
+paru -Ss thunar
+paru -Syy thunar
+paru -Rs dolphin
+paru -Ss JoyPixel
+paru -Syy ttf-joypixels
+vim dwm-6.2
+make
+make 
+cd dwm-6.2
+make
+cd
+git clone https://aur.archlinux.org/libxft-bgra.git
+cd libxft-bgra
+makepkg -si
+makepkg -si
+cd
+cd dwm-6.2
+make
+vim 
+cd dwm-bar
+vim
+vim
+vim
+startx
+SH
+cd dmenu-4.9
+make
+grep iscol 
+vim
+grep iscol *
+vim drw.c
+vim
+paru -Ss unicode
+paru -Ss ttf-unicode
+pacman -Ss libxft
+sudo pacman -Syy xorg-xfd
+yay libxtf
+yay libxft
+cd back
+tar -xf dmenu-5.0.tar.gz
+ls
+cd dmenu-5.0
+ls
+vim drw.c
+cd dmenu-4.9
+vim drw.c
+make
+vim drw.c
+make
+vim drw.c
+make
+startx
+reboot
+vim
+cd back
+tar -xf dwm-6.2.tar.gz
+vim dwm-6.2
+paru -Ss JoyPixel
+cd dwm-6.2
+vim
+vim
+make
+sudo make clean install
+vim
+vim
+sudo cp config.def.h config.h
+sudo make clean install
+ranger
+neofetch
+cd dwm-6.2
+ivm
+vim
+sudo cp config.def.h config.h
+sudo make clean install
+cd dwm-6.2
+su
+sudo su
