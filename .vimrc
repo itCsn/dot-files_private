@@ -1,5 +1,7 @@
 "Some base
-set backspace=indent,eol,start
+tnoremap <Esc> <C-\><C-n>
+set shortmess+=c
+set guicursor=a:
 set number
 set ruler
 set mouse=a
@@ -10,73 +12,67 @@ set laststatus=2
 set cursorline
 set encoding=utf-8
 set sw=2
-set numberwidth=1
+set numberwidth=2
 set showcmd
-"set wildmode=longest,list,full
+set wildmode=longest,list,full
 set splitbelow splitright
-"autocmd BufRead,BufNewFile *.ms,*.me,*.mo,*.ma set filetype=groff
-"autocmd BufRead,BufNewFile *.text set filetype=text
-"autocmd BufWritePre * %s/\s\+$//e
 set softtabstop=4
 set shiftwidth=4
-set incsearch
-
-call plug#begin('~/.vim/plugged')
-
-" Themes
-"Plug 'morhetz/gruvbox'
-
-"Rainbow brackets
-Plug 'frazrepo/vim-rainbow'
-
-" Neerd tree
-Plug 'preservim/nerdtree' |
-            \ Plug 'Xuyuanp/nerdtree-git-plugin'
-" Neerd tree icons
-Plug 'ryanoasis/vim-devicons'
-"syntax highlight
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-"keymaps
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-n> :NERDTreeToggle<CR>
-nnoremap <C-i> :NERDTreeFind<CR>
-
-"ligthline
- Plug 'itchyny/lightline.vim'
-
-"syntax plugins
-Plug 'ekalinin/Dockerfile.vim'
-Plug 'tpope/vim-liquid'
-Plug 'tpope/vim-fugitive'
-
-" Easily surround chunks of text
-Plug 'tpope/vim-surround'
-
-"Docker
-Plug 'skanehira/docker-compose.vim'
-Plug 'danishprakash/vim-docker'
-
-"float termianl
-Plug 'voldikss/vim-floaterm'
-
-call plug#end()
-
+"set incsearch
+"set hlsearch
+set noshowmode
+set statusline="%f%m%r%h%w [%Y] [0x%02.2B]%< %F%=%4v,%4l %3p%% of %L"
+set matchpairs+=<:>
+set smartcase
+set undofile
+set undodir=~/.vim/undodir
+set smartindent
+set nowrap
+nnoremap <silent> <leader>, :noh<cr> "Stop highlight after searching
+set ignorecase    " case insensitive searching (unless specified)
+set autoindent
+so ~/.vim/plugins.vim
+so ~/.vim/plugin-config.vim
+so ~/.vim/maps.vim
+highlight Normal ctermbg=NONE
+set nospell
+let g:go_highlight_trailing_whitespace_error=0
+set bg=light
+"
 " Themes gruvbox
-"colorscheme gruvbox
-"let g:gruvbox_contrast_dark = "hard"
-"set bg=dark
+" colorscheme gruvbox
+" let g:gruvbox_contrast_dark = "hard"
+" set bg=dark
 
-" Syntax
-let g:WebDevIconsDisableDefaultFolderSymbolColorFromNERDTreeDir = 1
-let g:WebDevIconsDisableDefaultFileSymbolColorFromNERDTreeFile = 1
+" python
+"autocmd FileType python call AutoCmd_python()
+"fun! AutoCmd_python()
+        "setlocal other options for python, then:
+    " nnoremap <buffer>  <leader>p :w <CR> :exec 'te python' shellescape(@%, 1)<cr>
+" endf
+augroup vimrc-incsearch-highlight
+    autocmd!
+    autocmd CmdlineEnter /,\? :set hlsearch
+    autocmd CmdlineLeave /,\? :set nohlsearch
+    augroup END
 
-let mapleader =" "
-map <leader>f :Goyo \| set linebreak<CR>
-"spell-check
-map <leader>o :setlocal spell! spelllang=en_us<CR>
-"Shortcutting split navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
-let g:rainbow_active = 1
+"C++ manual
+autocmd FileType cpp set keywordprg=cppman
+
+if executable('rg')
+    let g:rg_derive_root='true'
+endif
+
+"Autosave
+inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
+" autocmd TextChanged,TextChangedI <buffer> silent write
+
+
+let g:kite_documentation_continual=1
+autocmd CompleteDone * if !pumvisible() | pclose | endif
+let g:python_highlight_space_errors = 0
+hi cursorline cterm=none term=none
+autocmd WinEnter * setlocal cursorline
+autocmd WinLeave * setlocal nocursorline
+highlight CursorLine guibg=#303000 ctermbg=239
+
