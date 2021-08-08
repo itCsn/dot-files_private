@@ -1,0 +1,13 @@
+alias "B"='sudo /home/italo/scripts/brightness.sh'
+alias "rs"='redshift -P -O 3000'
+alias ".."='cd ..'
+alias "SH"='shutdown -h now'
+alias "scre"='ffmpeg -f x11grab -s 1366x768 -i :0.0 -f pulse -i alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+alias "la"='ls -la'
+alias "nv"=nvim 
+alias ls='ls --color'
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi"
